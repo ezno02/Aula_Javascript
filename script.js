@@ -35,6 +35,7 @@ function limpar(){
 
     
     bloco.style.backgroundColor = "black"
+    bloco.style.backgroundImage = "none"
 
     setTimeout(() => {
         bloco.style.backgroundImage = "none"
