@@ -1,0 +1,68 @@
+*{
+    background-position: center;
+}
+body{
+    background-image: url(fundo\ certo.png);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#bloco{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: solid 3px black;
+    background-color: white;
+    transition-duration: 1s;
+}
+hr{
+    border: none;
+}
+#controle{
+    width: 40vw;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url(fundo\ div.jpg);
+    padding: 10px;
+}
+#controle_bloco{
+    color: white;
+}
+.blocos{
+    border: solid 2px black;
+    width: 20vw;
+    margin: auto;
+    min-height: 4vh;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+}
+button{
+    width: 7vw;
+    border-radius: 12px;
+    transition-delay: 400ms;
+    transition-duration: 1s;
+}
+button:hover{
+    transition-duration: 1s;
+    scale: 1.2;
+    color: white;
+    background-color: black;
+}
+#boanoite{
+    border: solid 2px black;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+}
+#texto{
+    color: white;
+}
